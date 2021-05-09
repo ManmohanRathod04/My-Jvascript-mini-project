@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    width:100%;
+    height:100vh;
+    background: url(../img/joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    width: 30%;
+    height:70vh;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.box:hover{
+    box-shadow: 0px 5px 1px #ddd, 0 10px 20px #ccc;
+    cursor: pointer;
+}
+
+h2{
+    color:#fff;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p{
+    color:#eed706ab;
+    font-size: 8rem;
+}
+
+.button{
+    border:0px solid red;
+    display: flex;
+    justify-content: space-around;
+    width:380px;
+}
+#btn{
+    height:37px;
+    width:100px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+#btn:hover{
+    color:#fff;
+    background-color: darkcyan;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+#btn2{
+    height:37px;
+    width:100px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+#btn2:hover{
+    color:#fff;
+    background-color: darkcyan;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+#btn3{
+    height:37px;
+    width:100px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+#btn3:hover{
+    color:#fff;
+    background-color: darkcyan;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
