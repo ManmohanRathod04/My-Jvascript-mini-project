@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    height:100vh;
+}
+
+.box{
+    width:50rem;
+    height:30rem;
+    background-color: brown;
+    
+}
+
+.box h2{
+    color:#fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top:30px;
+}
+
+#para{
+    margin-top: 30px;
+    width:35rem;
+    height:10rem;
+    background-color: crimson;
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#btn{
+    height:3rem;
+    width:8rem;
+    position: relative;
+    left:330px;
+    top:30px;
+    background-color:#000;
+    color:#fff;
+    font-size: 15px;
+    border:none;
+}
+#btn:hover{
+    border:2px solid #000;
+    cursor: pointer;
+    color:#000;
+    background-color: #fff;
+}

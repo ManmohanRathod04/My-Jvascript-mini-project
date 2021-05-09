@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin: 0;
+}
+#main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width:8rem;
+    height:3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+button:Hover{
+     border:2px solid #fff;
+     background-color: black;
+     color:#fff;
+     cursor: pointer;
+}
