@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(87, 87, 214);
+    max-width: 400px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#msg{
+    width: 400px;
+    height:40px;
+    color:#fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgb(87, 87, 214);
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square{
+    transition: 1s ease;
+    box-shadow: 0 0 2px #000;
+    height:16px;
+    width: 16px;
+    margin: 2px;
+    background-color: #1d1d1d;
+    border-radius: 0.5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.square:hover{
+    transition: 0s;
+}
+
