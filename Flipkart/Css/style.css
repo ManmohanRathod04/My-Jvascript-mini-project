@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width:100%;
+    height:100vh;
+}
+
+header{
+    background-color:#2874f0 ;
+    width: 100%;
+    height:50px;
+    
+}
+
+.logo p{
+    font-size: 17px;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    position: relative;
+    left:110px;
+    top:4px;
+    
+}
+
+#plus{
+    color:#ffe500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search{
+    padding-top: 8px;
+}
+
+input{
+    width:33rem;
+    height: 2.2rem;
+    border:none;
+    border-radius: 2px;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.menu-button{
+    background-color: #fff;
+    color: #2874f0;
+    padding:15px;
+    font-size: 18px;
+    cursor: pointer;
+    height:30px;
+    min-width: 8rem;
+    padding-top: 2px;
+    border: none;
+    margin:10px 50px;
+    
+}
+
+.right-menu{
+    position: relative;
+    display: inline-block;
+}
+
+
+#NewCustomer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#NewCustomer span{
+    color:#2874f0;
+    float: left;
+   font-weight: 600;
+    
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+    width:200px;
+    background-color: #fff;
+    border:2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px; 
+}
+
+.dropdown a{
+    display: flex;
+    align-content: flex-start;
+    text-decoration: none;
+    font-size: 14px;
+    color:#181818;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    transform: scale(1.1s); 
+      }
+
+.dropdown a:hover{
+    background-color:#f1f3f6;
+    color:#282828;
+}
+
+.right-menu:hover .dropdown{
+    display: block;
+}
+
+
+.button{
+    background-color: transparent;
+    color: #fff;
+    padding:15px;
+    font-size: 18px;
+    cursor: pointer;
+    height:30px;
+    min-width: 8rem;
+    padding-top: 2px;
+    border: none;
+    margin:10px -20px;
+    
+}
+
+.menu{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown a i{
+        display: flex;
+        color: #2874f0;
+        font-size: 20px;
+        padding:0 7px;        
+    }
+
+.dropdown a:hover{
+    background-color:#f1f3f6;
+    color:#282828;
+    
+}
+
+.menu:hover .dropdown{
+    display: block;
+}
+
+#cart{
+    display: flex;
+    color:#fff;
+}
+
+ #cart p{
+     display: flex;
+     font-size: 20px;
+     padding-top: 10px;
+ } 
+
+ #cart p i{
+    padding-top: 3px;
+ }
+
+ /* Cards */
+
+ #card{
+     display: flex;
+     flex-direction: row;
+     width:82%;
+     flex: 1 1 auto;
+     margin-top: 10px;
+     overflow-y: hidden;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   
+ }
+
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+ #card p{
+     color:#000;
+     font-size: 14px;
+     display: flex;
+     justify-content: center;
+
+ }
+
+ #card #offer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color:green;
+    margin-bottom: 10px;
+ }
+
+ #card .features{
+     color:gray;
+     font-size: 15px;
+ }
+ 
+ #conatiner{
+    display: flex;
+ }
+ .Cards{
+     width:18%;
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ }
+
+ #modalbox{
+     min-height:500px;
+     max-width:600px;
+     border: 0px solid red;
+     margin-top: 10rem;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .modalbox2{
+     height:500px;
+     width:330px;
+     background: url(../img/login2.jpg) center;
+    
+ }
+
+ .modalbox2 h4{
+     color:#fff;
+     font-size: 22px;
+     font-weight: 700;
+     background: transparent;
+     font-family: 'Roboto', sans-serif;
+     margin:35px 30px ;
+     
+ }
+
+ .modalbox2 p{
+     color:#fff;
+     font-size: 15px;
+     font-weight: 300;
+     font-family: 'Roboto', sans-serif;
+     margin:-20px 30px ;
+ }
+
+ .modalbox3{
+    background-color:#fff;
+    min-height:500px; 
+    width:370px;
+    padding:44px 30px;
+    border: 0px solid #000; 
+     
+ }
+
+ .modalbox3 input{
+ width: 300px;
+ height:50px;
+ background: transparent;
+ border:none;
+ border-bottom: 1px solid gray;
+ box-shadow: none;  
+ border-radius: 0px;
+ margin:4px 0;
+}
+
+.modalbox3 input:hover{
+    border-bottom: 1px solid #2874f0;
+}
+
+.para{
+    letter-spacing: 0px;
+    padding-top: 5px;
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+}
+.changeColor{
+    color: #2874f0;
+    
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px solid #000;
+    height:150px;
+}
+
+.btn1,.btn2{
+    height: 45px;
+    width:300px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn1,.btn2:hover{
+    cursor: pointer;
+}
+.btn1{
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn2{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    color:#2874f0;
+    font-size: 18px;
+    background-color: #fff;
+    font-weight: 500;
+}
+
+.fotter{
+    color: #2874f0;
+    font-weight: 500;
+    padding-top: 40px;
+   
+}
